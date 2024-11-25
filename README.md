@@ -68,7 +68,9 @@ Passo 1: Faça o pull das mudanças remotas
 No terminal, execute:
 
 git pull origin main --allow-unrelated-histories
-O argumento --allow-unrelated-histories é necessário porque os históricos do repositório local e remoto não estão relacionados.
+O argumento --allow-unrelated-histories 
+
+é necessário porque os históricos do repositório local e remoto não estão relacionados.
 Isso vai combinar as alterações do repositório remoto com o seu local.
 
 Passo 2: Resolva conflitos (se houver)
@@ -76,6 +78,7 @@ Caso existam conflitos, o Git vai marcar os arquivos em conflito. Resolva os con
 
 git add .
 git commit -m "Resolvidos conflitos após o pull"
+
 Passo 3: Tente o push novamente
 Agora, envie as alterações para o repositório remoto:
 
