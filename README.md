@@ -1,6 +1,4 @@
 
-Criar um repositório e fazer commit no GitHub é um processo simples. Aqui está o passo a passo:
-
 1. Criar o repositório no GitHub
 Acesse GitHub e faça login na sua conta.
 No canto superior direito, clique no ícone "+" e selecione New repository.
