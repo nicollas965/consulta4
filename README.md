@@ -61,3 +61,22 @@ Atualizar com alterações do repositório remoto:
 
 git pull
 Agora você está pronto para usar o Git e o GitHub de forma eficaz! 🎉
+
+//////////
+
+Passo 1: Faça o pull das mudanças remotas
+No terminal, execute:
+
+git pull origin main --allow-unrelated-histories
+O argumento --allow-unrelated-histories é necessário porque os históricos do repositório local e remoto não estão relacionados.
+Isso vai combinar as alterações do repositório remoto com o seu local.
+
+Passo 2: Resolva conflitos (se houver)
+Caso existam conflitos, o Git vai marcar os arquivos em conflito. Resolva os conflitos manualmente editando os arquivos indicados, e depois finalize com os comandos:
+
+git add .
+git commit -m "Resolvidos conflitos após o pull"
+Passo 3: Tente o push novamente
+Agora, envie as alterações para o repositório remoto:
+
+git push -u origin main
